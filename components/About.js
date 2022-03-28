@@ -75,7 +75,7 @@ function About() {
                 <p className='text-cc text-xl mt-4 mb-4'>Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
             </div>
             <div className="max-w-screen-xl mx-auto h-auto flex md:flex-row flex-col items-center justify-between mt-10 p-4">
-                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-sccColor to-t flex-col rounded-xl">
+                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-fr to-t flex-col rounded-xl">
                     <h2 className='text-3xl text-mainBg'>
                         24/7
                     </h2>
@@ -83,7 +83,7 @@ function About() {
                         Live Support
                     </h3>
                 </div>
-                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-sccColor to-t flex-col rounded-xl">
+                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-fr to-t flex-col rounded-xl">
                     <h2 className='text-3xl text-mainBg'>
                         1800+
                     </h2>
@@ -91,7 +91,7 @@ function About() {
                         Done Works!
                     </h3>
                 </div>
-                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-sccColor to-t flex-col rounded-xl">
+                <div className="md:w-64 w-full my-5 h-32 flex items-center justify-center bg-gradient-to-r from-fr to-t flex-col rounded-xl">
                     <h2 className='text-3xl text-mainBg'>
                         1200+
                     </h2>

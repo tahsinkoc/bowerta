@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import Content from '../components/Content'
 import styles from '../styles/Home.module.css'
 import About from '../components/About'
+import Footer from '../components/Footer'
+import Services from '../components/Services'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Navbar />
       <Content />
       <About />
+      <Services />
+      <Footer />
     </div>
   )
 }
