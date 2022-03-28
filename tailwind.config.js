@@ -14,9 +14,13 @@ module.exports = {
       'scColor': '#0049c7',
       'sccColor': '#00c7d9',
       'after': '#0095a3',
+      'G': 'rgb(209 213 219)',
       'gr': '#323232',
       'caaa': 'rgb(0, 235, 255, .1)',
       'bl': '#1c1c1a',
+
+      'fr': '#01e9bd',
+      't': '#007cde',
     },
     extend: {},
   },

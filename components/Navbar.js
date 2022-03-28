@@ -4,8 +4,8 @@ import {FaBars} from 'react-icons/fa'
 
 function Navbar() {
     return (
-        <div>
-            <div className="w-full p-3 shadow-md top-0 left-0 fixed">
+        <div className='z-10'>
+            <div className="w-full p-3 shadow-md top-0 left-0 fixed z-10 bg-mainBg">
                 <div className="max-w-screen-xl flex mx-auto justify-between items-center">
                     <div className='flex items-center'>
                         <div className="w-64 relative h-14 cursor-pointer">
@@ -40,7 +40,7 @@ function Navbar() {
                                 </Link>
                             </nav>
                         </div>
-                        <button className='border-[2px] border-sccColor text-sccColor transition-colors duration-100 hover:bg-sccColor hover:text-mainBg p-2 rounded-3xl w-32'>Get Start</button>
+                        <button className='border-[2px] border-gradient-to-r from-fr to-t text-sccColor transition-colors duration-100 hover:bg-gradient-to-r from-fr to-t hover:text-mainBg p-2 rounded-3xl w-32'>Get Start</button>
                     </div>
                 </div>
             </div>
