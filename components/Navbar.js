@@ -1,17 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import {FaBars} from 'react-icons/fa'
 
 function Navbar() {
     return (
         <div>
-            <div className="w100 p-3 shadow-md">
+            <div className="w-full p-3 shadow-md top-0 left-0 fixed">
                 <div className="max-w-screen-xl flex mx-auto justify-between items-center">
                     <div className='flex items-center'>
                         <div className="w-64 relative h-14 cursor-pointer">
                             <Image src={'/logo_bw.png'} layout='fill'></Image>
                         </div>
                     </div>
-                    <button className='block md:hidden'>AÇ</button>
+                    <button className='block text-sccColor text-3xl md:hidden'>
+                        <FaBars />
+                    </button>
                     <div className='hidden items-center md:flex'>
                         <div className="text-cc flex items-center">
                             <nav className='text-lg mr-5'>

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Content() {
   return (
-    <div>
-        <div className="max-w-screen-xl mt-20 mx-auto h-96 flex items-center justify-center flex-col">
+    <div className='h-full'>
+        <div className="max-w-screen-xl h-screen mx-auto flex items-center justify-center flex-col md:h-96 md:mt-40">
             <h2 className='text-center text-6xl m-5 text-gr'>
                 Data to enrich <b className='text-sccColor'>your online business</b>
             </h2>
