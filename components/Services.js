@@ -109,7 +109,7 @@ function Services() {
                         </p>
                         <p className='ml-2'>Pariatur quod similuque</p>
                     </h3>
-                    <button className=' my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                    <button className='transition-all my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
                 </div>
             </div>
         </div>
