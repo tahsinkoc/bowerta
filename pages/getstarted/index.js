@@ -1,6 +1,4 @@
-import React from 'react'
-
-function index() {
+function GetStarted() {
     return (
         <div>
             <div className="max-w-screen-xl	mx-auto flex items-center relative">
@@ -15,14 +13,14 @@ function index() {
                         <label className='text-cc text-sm font-bold mb-2 text-md my-5'>Select Service</label>
                         <label className='text-cc text-sm font-bold mb-2 text-md my-5 absolute right-1 bottom-[45px]'>Select Deadline</label>
                         <div className='w-full flex'>
-                            <select class="mr-2 block appearance-none w-full border border-cc text-cc py-3 px-4 pr-8 rounded outline-ou otline-4 cursor-pointer" id="grid-state">
+                            <select className="mr-2 block appearance-none w-full border border-cc text-cc py-3 px-4 pr-8 rounded outline-ou otline-4 cursor-pointer" id="grid-state">
                                 <option>SELECT</option>
                                 <option>INFORMATION WEBSITE</option>
                                 <option>E-Commerce WEBSITE</option>
                                 <option>CUSTOM WEB APPLICATION</option>
                                 <option>ANOTHER SERVICE</option>
                             </select>
-                            <select class="ml-2 block appearance-none w-full border border-cc text-cc py-3 px-4 pr-8 rounded outline-ou otline-4 cursor-pointer" id="grid-state">
+                            <select className="ml-2 block appearance-none w-full border border-cc text-cc py-3 px-4 pr-8 rounded outline-ou otline-4 cursor-pointer" id="grid-state">
                                 <option>SELECT DEADLINE</option>
                                 <option>Less then three week</option>
                                 <option>Three Week</option>
@@ -41,4 +39,4 @@ function index() {
     )
 }
 
-export default index
+export default GetStarted

@@ -1,13 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Content from '../components/Content'
-import styles from '../styles/Home.module.css'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
-import { useRef } from 'react'
-import { useEffect } from 'react'
 
-import {testR} from './Footer'
 function Navbar() {
 
     const [isOpen, setOpen] = useState(false)
