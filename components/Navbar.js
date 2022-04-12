@@ -10,6 +10,7 @@ function Navbar() {
     const scA = (e) => {
         let a = parseInt(e.target.id)
         window.scrollTo({ top: a, behavior: 'smooth' });
+        setOpen(!isOpen)
     }
 
     return (
