@@ -7,7 +7,8 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
 
-export default function Home() {
+
+function index() {
   return (
     <div>
       <Navbar />
@@ -18,3 +19,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default index

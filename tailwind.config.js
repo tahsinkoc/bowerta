@@ -10,6 +10,7 @@ module.exports = {
       'mainBg': '#fff',
       'cc': '#9CA3AF',
       // #0b051f
+      'ou': '#A0CCF0',
       'txtColor': '#00ffa2',
       'scColor': '#0049c7',
       'sccColor': '#00c7d9',

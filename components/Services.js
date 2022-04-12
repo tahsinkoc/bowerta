@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { AiOutlineCheck } from 'react-icons/ai'
 
 function Services() {
@@ -41,7 +42,11 @@ function Services() {
                         </p>
                         <p className='ml-2'>Pariatur quod similuque</p>
                     </h3>
-                    <button className=' my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                    <Link href='/getstarted'>
+                        <a className='w-full flex justify-center'>
+                            <button className='my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                        </a>
+                    </Link>
                 </div>
                 <div className="my-10 md:my-0 w-11/12 md:w-96 h-auto shadow-xl border-sccColor shadow-scS rounded-xl p-4 border-sccColor border-[1px] flex flex-col items-center">
                     <h2 className='p-1 rounded-3xl text-scColor bg-b w-28 flex items-center justify-center'>STANDARD</h2>
@@ -75,7 +80,11 @@ function Services() {
                         </p>
                         <p className='ml-2'>Pariatur quod similuque</p>
                     </h3>
-                    <button className=' my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                    <Link href='/getstarted'>
+                        <a className='w-full flex justify-center'>
+                            <button className='my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                        </a>
+                    </Link>
                 </div>
                 <div className="my-10 md:my-0 w-11/12 md:w-96 h-auto shadow-xl border-sccColor shadow-scS rounded-xl p-4 border-sccColor border-[1px] flex flex-col items-center">
                     <h2 className='p-1 rounded-3xl text-scColor bg-b w-28 flex items-center justify-center'>ENTERPRISE</h2>
@@ -109,7 +118,11 @@ function Services() {
                         </p>
                         <p className='ml-2'>Pariatur quod similuque</p>
                     </h3>
-                    <button className='transition-all my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                    <Link href='/getstarted'>
+                        <a className='w-full flex justify-center'>
+                            <button className='my-5 rounded-xl p-4 text-mainBg bg-gradient-to-r from-fr to-t w-11/12 hover:border-sccColor hover:bg-none hover:text-sccColor border-[2px]'>GET STARTED</button>
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,8 +1,13 @@
 import { AiOutlineCopyright, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
-
+import {BsDiscord} from 'react-icons/bs'
+import { useRef } from 'react'
 function Footer() {
+    
+    const testR = useRef(null)
+
+
     return (
-        <div>
+        <div ref={testR}>
             <div className="w-full h-32 bg-gradient-to-r from-fr to-t flex items-center justify-center">
                 <div className="h-16 flex items-center w-full justify-center">
                     <input type="mail" className='p-2 md:w-96 w-3/4 rounded-lg outline-0 shadow-lg' placeholder='Enter your email'/>
@@ -22,6 +27,9 @@ function Footer() {
                         </a>
                         <a href="#" className='text-2xl mr-2'>
                             <AiFillLinkedin />
+                        </a>
+                        <a href="#" className='text-2xl mr-2'>
+                            <BsDiscord />
                         </a>
                     </div>
                 </div>
